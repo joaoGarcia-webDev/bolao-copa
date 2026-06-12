@@ -1,0 +1,54 @@
+.bolao-public-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0d3b66 0%, #1a6b4a 100%);
+}
+
+.card-bolao {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.stat-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.15s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.stat-card .stat-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #0d3b66;
+}
+
+.table-bolao th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.badge-pendente {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.badge-pago {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.login-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0d3b66 0%, #1a3a5c 100%);
+}
